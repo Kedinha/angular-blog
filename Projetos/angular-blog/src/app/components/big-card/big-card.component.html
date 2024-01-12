@@ -1,20 +1,16 @@
 <div class="container__big-card">
   <!-- mock -->
   <div class="big-card__photo">
-    <img
-      src="https://www.ucf.edu/wp-content/blogs.dir/20/files/2023/07/Tech-Hub.jpg"
-      alt="Imagem prinicpal"
-    />
+    <img src="{{ photoCover }}" alt="Imagem prinicpal" />
   </div>
   <div class="big-card__title">
-    <h1><a href="#">New tech training!</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-      sapiente possimus illo id non, reiciendis nulla. Dolore earum quod
-      repellendus facere iusto blanditiis, itaque obcaecati numquam a sequi
-      praesentium magni.
+      {{ cardDescription }}
     </p>
   </div>
 </div>
