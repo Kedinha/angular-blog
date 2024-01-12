@@ -20,3 +20,23 @@
 .container__small-card__separator {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 300px;
+  }
+  .container__small-card-contents {
+    max-width: 275px;
+    display: block;
+    font-size: 0.5rem;
+  }
+  .small-card__photo > img {
+    width: 100%;
+  }
+  .small-card__title > h1 {
+    text-align: center;
+  }
+  .container__small-card__separator {
+    max-width: 17rem;
+  }
+}

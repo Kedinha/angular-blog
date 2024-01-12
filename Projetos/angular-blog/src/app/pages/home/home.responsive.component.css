@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 330px;
+  }
+  .container__aticles {
+    display: block;
+  }
+}
